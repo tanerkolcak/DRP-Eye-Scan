@@ -9,7 +9,7 @@ The eye scan script requires the AXI4 base address of the GTY/GTH DRP interface 
 ### Syntax
 
 ```bash
-python eye_scan.py <base_addr> [options]
+python3 drp_eye_scan.py <base_addr> [options]
 ```
 
 ### Required Argument
