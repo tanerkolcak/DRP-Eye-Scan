@@ -36,13 +36,13 @@ python3 drp_eye_scan.py <base_addr> [options]
 #### Basic Scan
 
 ```bash
-python eye_scan.py 0xA0000000
+python3 drp_eye_scan.py 0xA0000000
 ```
 
 #### Full-Rate Scan with Increased Resolution
 
 ```bash
-python eye_scan.py 0xA0000000 \
+python3 drp_eye_scan.py 0xA0000000 \
     --rxout-div 1 \
     --h-step 1 \
     --v-step 4
@@ -51,7 +51,7 @@ python eye_scan.py 0xA0000000 \
 #### Wide Eye Scan
 
 ```bash
-python eye_scan.py 0xA0000000 \
+python3 drp_eye_scan.py 0xA0000000 \
     --h-max 64 \
     --v-max 127 \
     --prescale 6
